@@ -1,6 +1,7 @@
 import React from 'react';
 import { Phone, MessageCircle, CheckCircle2, Sparkles } from 'lucide-react';
-import { CLINIC_INFO, CLINIC_IMAGES } from '../data/clinicData';
+import { CLINIC_INFO } from '../data/clinicData';
+import { CLINIC_IMAGES } from '../data/clinicImages';
 
 interface AboutSectionProps {
   onOpenAppointmentModal: () => void;

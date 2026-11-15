@@ -37,12 +37,6 @@ export const CLINIC_INFO: ClinicInfo = {
   googleMapsDirectionsUrl: "https://www.google.com/maps/search/?api=1&query=Karachi+Healthcare+Clinic",
 };
 
-export const CLINIC_IMAGES = {
-  hero: "/src/assets/images/hero_medical_consultation_1794262218478.jpg",
-  facility: "/src/assets/images/clinic_facility_room_1794262218633.jpg",
-  pediatric: "/src/assets/images/clinic_pediatric_maternal_1794262218192.jpg",
-};
-
 export interface ServiceItem {
   id: string;
   title: string;
